@@ -58,7 +58,8 @@ public class MainFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-           SecondaryDialog dialog = new SecondaryDialog(this, true);
+         javax.swing.JButton btn = (javax.swing.JButton) evt.getSource();
+        SecondaryDialog dialog = new SecondaryDialog(this, true, btn.getText());
            dialog.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
