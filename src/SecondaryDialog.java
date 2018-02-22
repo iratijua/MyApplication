@@ -65,13 +65,7 @@ public class SecondaryDialog extends javax.swing.JDialog {
     /**
      * @param args the command line arguments
      */
-    
-            .addGroup(layout.createSequentialGroup()
-                .addGap(131, 131, 131)
-                .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 94, Short.MAX_VALUE)
-                .addComponent(jButton)
-                .addGap(23, 23, 23))
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton;
     private javax.swing.JLabel jLabel1;
